@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/weddingsite/static/css/main.331ba3e4.chunk.css",
-    "main.js": "/weddingsite/static/js/main.21ba9155.chunk.js",
-    "main.js.map": "/weddingsite/static/js/main.21ba9155.chunk.js.map",
-    "runtime-main.js": "/weddingsite/static/js/runtime-main.a5437da0.js",
-    "runtime-main.js.map": "/weddingsite/static/js/runtime-main.a5437da0.js.map",
-    "static/js/2.f57372f0.chunk.js": "/weddingsite/static/js/2.f57372f0.chunk.js",
-    "static/js/2.f57372f0.chunk.js.map": "/weddingsite/static/js/2.f57372f0.chunk.js.map",
-    "index.html": "/weddingsite/index.html",
-    "precache-manifest.d8e4086c543680d8248848ea3b5dcf26.js": "/weddingsite/precache-manifest.d8e4086c543680d8248848ea3b5dcf26.js",
-    "service-worker.js": "/weddingsite/service-worker.js",
-    "static/css/main.331ba3e4.chunk.css.map": "/weddingsite/static/css/main.331ba3e4.chunk.css.map",
-    "static/media/bg2.jpg": "/weddingsite/static/media/bg2.9b84879c.jpg",
-    "static/media/Frontpage.css": "/weddingsite/static/media/fran.9d7db7d2.jpg",
-    "static/media/jossebo.jpg": "/weddingsite/static/media/jossebo.1ed21b8a.jpg",
-    "static/media/voxnakyrka1.jpg": "/weddingsite/static/media/voxnakyrka1.c9b7ec4a.jpg"
+    "main.css": "/static/css/main.d0ba3545.chunk.css",
+    "main.js": "/static/js/main.9971969d.chunk.js",
+    "main.js.map": "/static/js/main.9971969d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0d7a82ac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0d7a82ac.js.map",
+    "static/js/2.f57372f0.chunk.js": "/static/js/2.f57372f0.chunk.js",
+    "static/js/2.f57372f0.chunk.js.map": "/static/js/2.f57372f0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2b541488d449cabc23b810dc1c3e76ae.js": "/precache-manifest.2b541488d449cabc23b810dc1c3e76ae.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d0ba3545.chunk.css.map": "/static/css/main.d0ba3545.chunk.css.map",
+    "static/media/bg2.jpg": "/static/media/bg2.9b84879c.jpg",
+    "static/media/Frontpage.css": "/static/media/fran.9d7db7d2.jpg",
+    "static/media/jossebo.jpg": "/static/media/jossebo.1ed21b8a.jpg",
+    "static/media/voxnakyrka1.jpg": "/static/media/voxnakyrka1.c9b7ec4a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5437da0.js",
+    "static/js/runtime-main.0d7a82ac.js",
     "static/js/2.f57372f0.chunk.js",
-    "static/css/main.331ba3e4.chunk.css",
-    "static/js/main.21ba9155.chunk.js"
+    "static/css/main.d0ba3545.chunk.css",
+    "static/js/main.9971969d.chunk.js"
   ]
 }
