@@ -5,7 +5,7 @@ import Frontpage from './Frontpage.js'
 import SkipButton from './components/SkipButton.js'
 import Info from './partials/Info.js'
 import Fest from './partials/Fest.js'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Menu from "./components/topMenu.js"
 import $ from 'jquery'
 
