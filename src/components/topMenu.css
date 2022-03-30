@@ -1,0 +1,109 @@
+/*@media only screen and (max-width:  600px){
+    .container{
+        height: 40px !important;
+        top: 30px !important;
+    }
+    .centerLogo{
+        height: 40px !important;
+        width: 40px !important;
+        top: 5px !important;
+    }
+    .centerLogo h2{
+        padding: 0 0 0 4px !important;
+    }
+    .menuItemContainer{
+        max-height: 35px !important;
+    }
+    .menuItemContainer h2{
+        margin: 3px 0 0 0 !important;
+    }
+}*/
+
+@keyframes hide{
+	0%{
+		opacity: 0;
+	}
+    100%{
+        opacity: 1;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.container-anim{
+    opacity: 0;
+    animation: hide 2s ease-in-out 8s forwards;
+    -webkit-animation: hide 2s ease-in-out 8s forwards;
+}
+
+.menuItemContainer{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    height: 45px;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 100%;
+}
+
+.linkOffset:first-child{
+    transform: translateX(50%);
+    margin-left: 100px;
+    transition: ease-in-out .3s;
+}
+
+.linkOffset:nth-child(2){
+    transform: translateX(-50%);
+    margin-left: -100px;
+    transition: ease-in-out .3s;
+}
+
+.linkOffset:first-child:hover{
+    transform: translateX(50%) scale(1.1);
+}
+
+.linkOffset:nth-child(2):hover{
+    transform: translateX(-50%) scale(1.1);
+}
+
+.container h2{
+    margin: 0;
+    padding: 5px 5px;
+    width: 100%;
+    color: white;
+    text-shadow: 0px 0px 7px black;
+}
+
+.centerLogo{
+    border: 2px solid white;
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg) !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto !important;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+}
+
+.centerLogo h2{
+    align-self: center;
+    transform: rotate(-45deg);
+    border: none;
+    padding: 0 0 0 7px;
+}

@@ -1,0 +1,91 @@
+/*@media only screen and (max-width:  800px){
+  .pageAnim{
+    transform: scale(.4) !important;
+  }
+}
+@media only screen and (max-width:  700px){
+  .pageAnim{
+    transform: scale(.3) !important;
+  }
+}
+@media only screen and (max-width:  600px){
+  .pageAnim{
+    transform: scale(.2) !important;
+  }
+}*/
+
+.pageWrapper{
+  width: 100% !important;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+
+  transform-origin: center center;
+}
+
+.pageAnim{
+  animation: scale 1.5s ease-in-out 6.5s forwards;
+  -webkit-animation: scale 1.5s ease-in-out 6.5s forwards;
+  transform: scale(.6);
+}
+
+@keyframes scale{
+  100%{
+    transform: scale(1);
+  }
+}
+
+.height{
+  height: 100%;
+}
+
+.black h4{
+  color: black;
+}
+
+.white h4 a{
+  color: white;
+}
+
+.white h4 a:hover, .white h4 a:focus{
+  color: white;
+}
+
+.black h4 a:hover, .black h4 a:focus{
+  color: black;
+}
+
+.instaBtn{
+  z-index: 9;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.instaBtn h4{
+  text-align: center;
+}
+
+a{
+  transition: ease-in-out .3s;
+}
+
+a:hover{
+  transform: scale(1.1);
+}
+
+h4{
+  text-align: center;
+  margin: 0;
+}
+
+h4 i{
+  margin-right: 10px;
+}
+
+.pb {
+  padding-bottom: 40px;
+}

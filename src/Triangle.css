@@ -1,0 +1,116 @@
+.triangle{
+    background-color: transparent;
+    border-top: 51vh solid #dbd4c3;
+    border-left: 97vh solid transparent;
+    border-right: 97vh solid transparent;
+    width: 100%;
+    height: 0;
+    z-index: 10;
+    position: absolute;
+    transform-origin: center top;
+    display: none;
+}
+
+.triangle-anim{
+    -webkit-animation: flipOpen 5.5s ease-in 2s forwards;
+    animation: flipOpen 5.5s ease-in 2s forwards;
+    display: initial !important;
+}
+
+.envelope{
+    background-color: transparent;
+    border: 97vh solid #ddd5c2;
+    border-top: 50vh solid transparent;
+    border-bottom: 50vh solid #ddd5c2;
+    width: 100%;
+    height: 0;
+    z-index: 10;
+    position: absolute;
+    display: none;
+}
+
+.envelope-anim{
+    -webkit-animation: moveT 5.5s ease-in 2s forwards;
+    animation: moveT 5.5s ease-in 2s forwards;
+    display: initial !important;
+}
+
+.envelope span{
+    width: 400px;
+    transform: translateX(-50%);
+    position: absolute;
+    text-align: center;
+    top: 20vh;
+    left: 35vh;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.rectangle{
+    background-color: transparent;
+    border: 97vh solid transparent;
+    border-top: 51vh solid #e5e0d3;
+    width: 100%;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    display: none;
+}
+
+.rectangle-anim{
+    -webkit-animation: moveT 5.5s ease-in 2s forwards;
+    animation: moveT 5.5s ease-in 2s forwards;
+    display: initial !important;
+}
+
+.envelopeContainer{
+    bottom: -1000px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.envelopeContainer-anim{
+    -webkit-animation: overflow 5.5s 2s forwards;
+    animation: overflow 5.5s 2s forwards;
+}
+
+@keyframes flipOpen{
+	0%{
+		transform: rotateX(0deg) translateY(0);
+        transform-origin: center top;
+	  }
+	50%{
+		transform: rotateX(180deg) translateY(0);
+        transform-origin: center top;
+    }
+    51%{
+        z-index: 2;
+    }
+    100%{
+        transform: rotateX(180deg) translateY(-2000px);
+        transform-origin: center top;
+        z-index: 2;
+    }
+}
+
+@keyframes moveT{
+	50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(2000px);
+    }
+}
+
+@keyframes overflow{
+    99%{
+        overflow: visible;
+    }
+    100%{
+        overflow: none;
+    }
+}

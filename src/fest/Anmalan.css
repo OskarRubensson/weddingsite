@@ -1,0 +1,92 @@
+.infoContainer{
+    width: 35%;
+    min-width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #dadada;
+    border-top: 0;
+    box-shadow: 5px 5px 20px 1px #dadada;
+    overflow: hidden;
+}
+
+.imgDiv{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.formContainer{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    min-height: 300px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.personContainer{
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 0 10px 40px;
+    text-align: left;
+    box-shadow: 5px 5px 8px 1px #e2e2e2;
+}
+
+.inputField{
+    border: 0;
+    border-bottom: 1px solid #999;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    padding-left: 3px;
+    margin: 0 5px 10px 0;
+}
+
+.firstBtn{
+    background-color: transparent;
+    border-radius: 15px;
+    height: 28px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.greenBtn{
+    border: 2px solid #6ece99;
+    color: #6ece99;
+}
+
+.greenBtn:hover , .blackBtn:hover{
+    color: white;
+    background-color: #6ece99;
+}
+
+.blackBtn{    
+    border: 1px solid #6ece99;
+    font-weight: normal !important;
+    color: #6ece99;
+}
+
+.secondBtn{
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #c46f6f;
+
+    padding: 5px; /* Align with inputs, bigger size for easy hitting */
+    margin-left: -5px; /* Same */
+}
+
+input{
+    outline: none;
+}
+button{
+    outline: none;
+}

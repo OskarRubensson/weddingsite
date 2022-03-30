@@ -1,0 +1,59 @@
+/*@media only screen and (max-width:  600px){
+    h1{
+        font-size: 17px !important;
+        line-height: 17px !important;
+    }
+    h2{
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+    .frontpage h1{
+        margin: 7px !important;
+    }
+    .frontpage h2, .centerLogo h2{
+        margin: 2px !important;
+    }
+
+    .textWrapper h1{
+        flex-basis: 30% !important;
+    }
+    
+    .textWrapper h2{
+        flex-basis: 70% !important;
+    }
+}*/
+
+.frontPage{
+    background-image: url("img/fran.jpg");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    z-index: 3;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.text-center{
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+  
+.header{
+    color: white;
+    line-height: 35px;
+    text-shadow: 0px 0px 20px black;
+    margin: 10px;
+    padding: 0;
+    display: inline;
+    text-align: center;
+}
