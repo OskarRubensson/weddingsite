@@ -16,8 +16,8 @@ const ITEMS = [
     key: 'osa',
   }, 
   {
-    name:'Information', 
-    key: 'information', 
+    name:'Info', 
+    key: 'info', 
   }
 ];
 
@@ -28,7 +28,7 @@ function App() {
       <Switch>
         <Route path="/osa" component={OSA} />
 
-        <Route path="/information" component={Information} />
+        <Route path="/info" component={Information} />
 
         {/* Måste stå sist för att namnen ska fungera på första sidan */}
         <Route path={["/", "/home"]} component={Hem}/>
