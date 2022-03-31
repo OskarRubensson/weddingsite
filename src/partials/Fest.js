@@ -9,7 +9,8 @@ function Fest({children}){
         <img className="imgDiv" src={require("../img/bg2.jpg")} alt="Voxna kyrka"></img>
         <div className="textWrapper">
           <h1>OSA formulär</h1>
-          <i className="noStyle">Här anger du om du planerar att komma på vigseln och festen eller inte. <br />Notera att du behöver ange varje person i ditt sällskap för sig.</i>
+          <i className="noStyle">Här anger du om du planerar att komma på vigseln och festen den 20/8 eller inte. 
+          <br />Notera att du behöver ange varje person i ditt sällskap för sig.</i>
           <OSAForm />
         </div>
         { children }
@@ -70,7 +71,7 @@ function OSAForm() {
                 />
               </td>
               <td>
-              <b>Ev. allergier: </b>&nbsp;
+              <b>Ev. allergier / specialkost: </b>&nbsp;
                 <input 
                   type="text"
                   name="allergies"
