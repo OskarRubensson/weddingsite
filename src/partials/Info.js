@@ -54,7 +54,7 @@ function Info({ children }) {
                 </span>
                 <h3>Barn</h3>
                 <span className="noStyle">
-                    Barn är underbara, men denna dag väljer vi att fira i vuxet sällskap. 
+                    Barn är underbara, men middagen i Jössebo väljer vi att fira i vuxet sällskap. 
                     Med undantag för ammande spädbarn, brudgummens syskonbarn och brudens kusiner.
                 </span>
 
